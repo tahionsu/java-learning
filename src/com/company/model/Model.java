@@ -1,9 +1,9 @@
 package com.company.model;
 
 public interface Model {
-    void load_data(String path);
+    String load_data(String path);
 
-    void fit();
+    String fit();
 
-    void run();
+    String run();
 }
