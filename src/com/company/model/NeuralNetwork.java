@@ -4,7 +4,7 @@ public class NeuralNetwork implements Model {
 
     @Override
     public String load_data(String path) {
-        return "Загружаем обучающие данные для нейросети"
+        return "Загружаем обучающие данные для нейросети";
     }
 
     @Override
